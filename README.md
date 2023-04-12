@@ -6,6 +6,8 @@ Enjoy 😀
 
 [DevOps Labs: 9 Real DevOps Projects](https://www.udemy.com/course/devops-labs-9-real-devops-projects/)
 
+<a href="https://www.udemy.com/course/devops-labs-9-real-devops-projects/">![DevOps Labs: 9 Real DevOps Projects](image/course_image_9.jpg)</a>
+
 ## Labs
 
 [Lab 001: ELK Monitoring](001-ELKMonitoring/README.md)
