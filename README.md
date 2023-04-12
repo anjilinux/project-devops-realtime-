@@ -2,28 +2,11 @@
 
 Enjoy 😀
 
-## Courses
-
-- [DevOps Labs: 14 Real DevOps Projects](Coming soon)
+## Course
 
 - [DevOps Labs: 9 Real DevOps Projects](https://www.udemy.com/course/devops-labs-9-real-devops-projects/)
 
-- [DevOps Labs: 6 Real DevOps Projects](https://www.udemy.com/course/devops-labs-6-real-devops-projects/)
-
-- [DevOps Labs: 3 Real DevOps Projects](https://www.udemy.com/course/devops-labs-9-real-devops-projects-free-version/)
-
 ## Labs
-
-<!--
-```dos
-Lab 001: ELK Monitoring
-Lab 002: Jenkins CICD Pipeline
-Lab 003: Gitlab CICD Pipeline
-Lab 004: Deploy Docker with Terraform Script
-Lab 005: Vault Jenkins Pipeline 
-Lab 006: Push War file to Nexus Repository Via Jenkins Pipeline and Deploy to Tomcat in Vagrant VM
-```
--->
 
 [Lab 001: ELK Monitoring](001-ELKMonitoring/README.md)
 
@@ -43,8 +26,6 @@ Lab 006: Push War file to Nexus Repository Via Jenkins Pipeline and Deploy to To
 
 [Lab 009: Helm Deployment in Kubernetes](009-MinikubeHelmDeployment)
 
-[Lab 014: Deploy and Use Vault As Agent Sidecar Injector](014-VaultInjectorMinikube/README.md)
-
 ## More labs (WIP)
 
 ```dos
@@ -52,4 +33,5 @@ Lab 010: Deploy Prometheus/Grafana on Minikube and Monitor The Health of Contain
 Lab 011: Create Read Only Kubeconfig File
 Lab 012: Backup Vault in Minio
 Lab 013: Develop a Java Application in K8s for Monitoring ConfigMap Modifications and Content Changes
+Lab 014: Deploy and Use Vault As Agent Sidecar Injector
 ```
