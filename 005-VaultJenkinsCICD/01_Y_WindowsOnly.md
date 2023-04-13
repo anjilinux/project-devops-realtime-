@@ -13,9 +13,9 @@ In this lab, we will learn how to integrate Vault into Jenkins pipeline, as well
 ### 1. Docker compose
 
 ```dos
-rd /s /q udemy-devops-real-projects
-git clone https://github.com/briansu2004/udemy-devops-real-projects.git
-cd udemy-devops-real-projects/005-VaultJenkinsCICD
+rd /s /q udemy-devops-9-real-projects
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
+cd udemy-devops-9-real-projects/005-VaultJenkinsCICD
 docker-compose up
 ```
 
@@ -546,7 +546,7 @@ b. Go to **"Pipeline"** section and select **"Pipeline script from SCM"** in the
 
 c. Select **"Git"** in **"SCM"** field
 
-d. Add `https://github.com/briansu2004/udemy-devops-real-projects.git` in **"Repository URL"** field
+d. Add `https://github.com/briansu2004/udemy-devops-9-real-projects.git` in **"Repository URL"** field
 
 e. Select our github credential in **"Credentials"**
 
@@ -557,7 +557,7 @@ g. Type `005-VaultJenkinsCICD/Jenkinsfile` in **"Script Path"**
 h. Unselect **"Lightweight checkout"**
 
 <!--
-<https://github.com/briansu2004/udemy-devops-real-projects/tree/main/005-VaultJenkinsCICD>
+<https://github.com/briansu2004/udemy-devops-9-real-projects/tree/main/005-VaultJenkinsCICD>
 -->
 
 ![Pipeline 01](image/README/pipeline-01.png)

@@ -143,8 +143,8 @@ DevOps 🚀 devbox %
 We can run below **ad-hoc** command to make sure the Ansible is able to talk to the VM:
 
 ```bash
-git clone https://github.com/briansu2004/udemy-devops-real-projects.git
-cd udemy-devops-real-projects/008-AnsibleVagrantJenkinsDeployment
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
+cd udemy-devops-9-real-projects/008-AnsibleVagrantJenkinsDeployment
 ansible -i hosts.ini jenkins_vm -m ping 
 ```
 

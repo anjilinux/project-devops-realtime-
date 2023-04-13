@@ -82,8 +82,8 @@ DevOps 🚀 devbox %
 We can run below **ad-hoc** command to make sure the Ansible is able to talk to the VM:
 
 ```bash
-git clone https://github.com/briansu2004/udemy-devops-real-projects.git
-cd udemy-devops-real-projects/008-AnsibleVagrantJenkinsDeployment
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
+cd udemy-devops-9-real-projects/008-AnsibleVagrantJenkinsDeployment
 ansible -i hosts.ini jenkins_vm -m ping 
 ```
 
@@ -129,7 +129,7 @@ jenkins_vm                 : ok=6    changed=4    unreachable=0    failed=0    s
 
 <!--
 ```bash
-vagrant@vagrant:~/udemy-devops-real-projects/008-AnsibleVagrantJenkinsDeployment$ ansible-playbook install-jenkins.yml -i hosts.ini --ask-pass --ask-become-pass
+vagrant@vagrant:~/udemy-devops-9-real-projects/008-AnsibleVagrantJenkinsDeployment$ ansible-playbook install-jenkins.yml -i hosts.ini --ask-pass --ask-become-pass
 SSH password: 
 BECOME password[defaults to SSH password]:
 
@@ -192,7 +192,7 @@ ansible-playbook uninstall-jenkins.yml -i hosts.ini --ask-pass --ask-become-pass
 ```
 
 ```bash
-vagrant@vagrant:~/udemy-devops-real-projects/008-AnsibleVagrantJenkinsDeployment$ ansible-playbook uninstall-jenkins.yml -i hosts.ini --ask-pass --ask-become-pass
+vagrant@vagrant:~/udemy-devops-9-real-projects/008-AnsibleVagrantJenkinsDeployment$ ansible-playbook uninstall-jenkins.yml -i hosts.ini --ask-pass --ask-become-pass
 SSH password: 
 BECOME password[defaults to SSH password]:
 
@@ -213,7 +213,7 @@ ansible-galaxy install geerlingguy.jenkins -i hosts.ini --ask-pass --ask-become-
 ```
 
 ```bash
-vagrant@vagrant:~/udemy-devops-real-projects/008-AnsibleVagrantJenkinsDeployment$ ansible-galaxy install geerlingguy.jenkins
+vagrant@vagrant:~/udemy-devops-9-real-projects/008-AnsibleVagrantJenkinsDeployment$ ansible-galaxy install geerlingguy.jenkins
 - downloading role 'jenkins', owned by geerlingguy
 - downloading role from https://github.com/geerlingguy/ansible-role-jenkins/archive/5.0.1.tar.gz
 - extracting geerlingguy.jenkins to /home/vagrant/.ansible/roles/geerlingguy.jenkins

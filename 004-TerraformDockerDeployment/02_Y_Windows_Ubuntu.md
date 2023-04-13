@@ -76,9 +76,9 @@ Hence the GitLab server URL is `http://gitlab.mydevopsrealprojects.com`
 
 ```bash
 cd
-rm -rf udemy-devops-real-projects
-git clone https://github.com/briansu2004/udemy-devops-real-projects.git
-cd udemy-devops-real-projects/004-TerraformDockerDeployment
+rm -rf udemy-devops-9-real-projects
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
+cd udemy-devops-9-real-projects/004-TerraformDockerDeployment
 docker-compose up
 ```
 
@@ -130,8 +130,8 @@ The below is the definition for the variables:
 Init
 
 ```dos
-git clone https://github.com/briansu2004/udemy-devops-real-projects.git
-cd udemy-devops-real-projects/004-TerraformDockerDeployment
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
+cd udemy-devops-9-real-projects/004-TerraformDockerDeployment
 cat config/test/config.tfbackend
 rm -rf .terraform
 terraform init -backend-config=config/test/config.tfbackend
@@ -139,7 +139,7 @@ terraform init -backend-config=config/test/config.tfbackend
 
 <!--
 ```bash
-vagrant@vagrant:~/udemy-devops-real-projects/004-TerraformDockerDeployment$ terraform init -backend-config=config/test/config.tfbackend
+vagrant@vagrant:~/udemy-devops-9-real-projects/004-TerraformDockerDeployment$ terraform init -backend-config=config/test/config.tfbackend
 
 Initializing the backend...
 
@@ -180,7 +180,7 @@ terraform plan -var-file=config/test/test.tfvars -out deploy.tfplan
 
 <!--
 ```bash
-vagrant@vagrant:~/udemy-devops-real-projects/004-TerraformDockerDeployment$ terraform plan -var-file=config/test/test.tfvars -out deploy.tfplan
+vagrant@vagrant:~/udemy-devops-9-real-projects/004-TerraformDockerDeployment$ terraform plan -var-file=config/test/test.tfvars -out deploy.tfplan
 
 Terraform used the selected providers to generate the following execution plan. Resource actions are indicated with the following symbols:
   + create
@@ -228,7 +228,7 @@ terraform apply deploy.tfplan
 
 <!--
 ```bash
-vagrant@vagrant:~/udemy-devops-real-projects/004-TerraformDockerDeployment$ terraform apply deploy.tfplan
+vagrant@vagrant:~/udemy-devops-9-real-projects/004-TerraformDockerDeployment$ terraform apply deploy.tfplan
 docker_image.hello_world: Creating...
 docker_image.hello_world: Still creating... [10s elapsed]
 docker_image.hello_world: Still creating... [20s elapsed]

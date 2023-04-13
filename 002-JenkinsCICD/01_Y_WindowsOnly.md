@@ -10,7 +10,7 @@ Works
 ### 1. Deploy a Jenkins docker container with **docker compose**
 
 ```bash
-git clone https://github.com/briansu2004/udemy-devops-9projects-free.git
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
 cd udemy-devops-9projects-free/002-JenkinsCICD
 docker compose up -d
 ```

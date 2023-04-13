@@ -28,9 +28,9 @@ e.g.
 
 ```dos
 cd \devbox
-rd /s /q udemy-devops-real-projects
-git clone https://github.com/briansu2004/udemy-devops-real-projects.git
-cd udemy-devops-real-projects/006-NexusJenkinsVagrantCICD
+rd /s /q udemy-devops-9-real-projects
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
+cd udemy-devops-9-real-projects/006-NexusJenkinsVagrantCICD
 docker-compose up
 ```
 
@@ -202,7 +202,7 @@ e. Go to **"Pipeline"** section and select **"Pipeline script from SCM"** in the
 
 f. Select **"Git"** in **"SCM"** field
 
-g. Add `https://github.com/briansu2004/udemy-devops-real-projects.git` in **"Repository URL"** field
+g. Add `https://github.com/briansu2004/udemy-devops-9-real-projects.git` in **"Repository URL"** field
 
 h. Select our github credential in **"Credentials"**
 

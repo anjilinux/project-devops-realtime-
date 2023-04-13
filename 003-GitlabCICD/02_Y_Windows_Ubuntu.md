@@ -73,7 +73,7 @@ vagrant ssh
 In Vagrant,
 
 ```dos
-git clone https://github.com/briansu2004/udemy-devops-9projects-free.git
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
 cd udemy-devops-9projects-free/003-GitlabCICD
 docker compose up
 ```

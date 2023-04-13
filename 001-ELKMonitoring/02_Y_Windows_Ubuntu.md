@@ -11,7 +11,7 @@ Clone the github repo and run the docker compose to start up the ELK stack
 ```bash
 sudo sysctl -w vm.max_map_count=262144
 
-git clone https://github.com/briansu2004/udemy-devops-9projects-free.git
+git clone https://github.com/briansu2004/udemy-devops-9-real-projects.git
 cd udemy-devops-9projects-free/001-ELKMonitoring
 
 # passwords are in the .env file
